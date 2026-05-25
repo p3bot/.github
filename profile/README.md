@@ -1,8 +1,4 @@
-<p align="center">
-  <img src="./start.png" alt="start-cli" width="200">
-</p>
-
-<h1 align="center">start-cli</h1>
+<h1 align="center">start</h1>
 
 <p align="center"><strong>Context-aware AI agent launcher powered by <a href="https://cuelang.org">CUE</a>.</strong></p>
 
