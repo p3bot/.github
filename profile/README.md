@@ -11,15 +11,20 @@ every time, consistently, with zero ceremony.
 
 | Project | Description |
 | --- | --- |
-| [start](https://github.com/start-cli/start) | The CLI: a Go application that composes prompts and launches AI agents. |
-| [library](https://github.com/start-cli/library) | CUE module of reusable agents, roles, contexts, tasks, and schemas, published to the CUE Central Registry. |
-| [homebrew-tap](https://github.com/start-cli/homebrew-tap) | Homebrew tap for installing the `start` binary. |
+| [start](https://github.com/p3bot/start) | The CLI: a Go application that composes prompts and launches AI agents. |
+| [library](https://github.com/p3bot/library) | CUE module of reusable agents, roles, contexts, tasks, and schemas, published to the CUE Central Registry. |
+| [agentdex](https://github.com/p3bot/agentdex) | Detect and inspect AI coding agents installed on the local machine. |
+| [pj](https://github.com/p3bot/pj) | Project board CLI for plain markdown project documents. |
+| [homebrew-tap](https://github.com/p3bot/homebrew-tap) | Homebrew tap for installing `start` and `agentdex`. |
+| [kagi](https://github.com/p3bot/kagi) | CLI client for the Kagi search API. |
+| [snag](https://github.com/p3bot/snag) | Browser-backed web content fetcher for agent tooling. |
+| [webctl](https://github.com/p3bot/webctl) | Browser control CLI for automated web interaction. |
 
 ## Quick start
 
 ```bash
-brew tap start-cli/tap
-brew install start-cli/tap/start
+brew tap p3bot/tap
+brew install p3bot/tap/start
 
 # Auto-setup detects your installed AI agent and writes initial config,
 # then launches an AI session with full project context.
