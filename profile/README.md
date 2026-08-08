@@ -7,7 +7,7 @@ CLI tools for AI agent workflows — context, project boards, search, and browse
 | [start](https://github.com/p3bot/start) | Context-aware AI agent launcher powered by CUE |
 | [library](https://github.com/p3bot/library) | Reusable CUE agents, roles, contexts, and tasks |
 | [agentdex](https://github.com/p3bot/agentdex) | Detect and inspect local AI coding agents |
-| [pj](https://github.com/p3bot/pj) | Project board CLI for plain markdown documents |
+| [tk](https://github.com/p3bot/tk) | Ticket board CLI for plain markdown documents |
 | [kagi](https://github.com/p3bot/kagi) | CLI client for the Kagi search API |
 | [snag](https://github.com/p3bot/snag) | Browser-backed web content fetcher |
 | [webctl](https://github.com/p3bot/webctl) | Browser control for automated web interaction |
@@ -22,7 +22,7 @@ brew trust p3bot/tap
 
 brew install p3bot/tap/start
 brew install p3bot/tap/agentdex
-brew install p3bot/tap/pj
+brew install p3bot/tap/tk
 brew install p3bot/tap/kagi
 brew install p3bot/tap/snag
 brew install p3bot/tap/webctl
